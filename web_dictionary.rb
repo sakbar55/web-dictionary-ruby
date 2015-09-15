@@ -41,7 +41,5 @@ server.mount "/words.json", ServeWordsInJSON
 server.mount "/create", AddWordFromJSON
 # Create a new class for search and mount it here
 
-server.mount "/site", WEBrick::FileHandler, "site"
-
 trap "INT" do server.shutdown end
 server.start
