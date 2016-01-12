@@ -1,0 +1,4 @@
+word = definition
+macbook = computer
+cat = feline
+webrick = sucks
